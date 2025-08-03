@@ -1,19 +1,19 @@
 [
     {
-      "title": "Project A",
+      "title": "Food Delivery Website",
       "imageSrc": "projects/project.png",
       "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "skills": ["React", "Express", "Node","MongoDB"],
+      "demo": "https://tomato-frontend-odae.onrender.com",
+      "source": "https://github.com/DipanwitaDas/Tomato/"
     },
     {
-      "title": "Project B",
+      "title": "Currency Converter",
       "imageSrc": "projects/project.png",
       "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "skills": ["HTML", "CSS", "Javascript"],
+      "demo": "https://ornate-hamster-2516e1.netlify.app/",
+      "source": "https://github.com/DipanwitaDas/Current-Currency"
     },
     {
       "title": "Project C",
