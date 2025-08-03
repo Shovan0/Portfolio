@@ -10,7 +10,7 @@ export const Hero = () => {
             <p className={styles.description}>I'm a full-stack developer with freashers using React and NodeJS. Reach out if you'd like to learn more!</p>
             <a href="mailto:dipanwitadas2442004@gmail.com" className={styles.contactBtn}>Contact Me</a>
         </div>
-        <img src={getImageUrl("hero/heroImage.png")} alt="Hero image of me" className={styles.heroImg} />
+        <img src={getImageUrl("hero/me.jpg")} alt="Hero image of me" className={styles.heroImg} />
         <div className={styles.topBlur} />
         <div className={styles.bottomBlur} />
 

@@ -47,13 +47,21 @@
 }
 
 .heroImg {
-    width: 50%;
-    z-index: 1;
-    animation-name:floating ;
+    width: 320px;
+    height: 320px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top; /* 👈 Moves the visible portion to focus on top */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+    z-index: 1;
 }
+
+
 
 @keyframes floating {
     0%{
@@ -102,4 +110,11 @@
     .content {
         align-items: center;
     }
+    .heroImg {
+        width: 220px;
+        height: 220px;
+        aspect-ratio: 1 / 1;             /* Still maintain perfect circle */
+        margin-bottom: 20px;
+    }
+    
 }
