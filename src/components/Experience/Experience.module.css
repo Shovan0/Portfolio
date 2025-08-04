@@ -1,13 +1,13 @@
 @import "../../vars.css";
 
-.container{
+.container {
     color: var(--color-text);
     margin-top: 79px;
     margin-left: 10%;
     margin-right: 10%;
 }
 
-.title{
+.title {
     color: var(--color-text);
     font-size: 35px;
     font-weight: 700;
@@ -50,7 +50,7 @@
     width: 75px;
 }
 
-.skill p{
+.skill p {
     font-size: 25px;
     font-family: var(--font-roboto);
     font-weight: 500;
@@ -69,12 +69,12 @@
     align-items: center;
     gap: 17px;
     background: #19376d;
-    background: linear-gradient(90deg, #19376d 0%,rgba(25,55,109,0)100%);
+    background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
     border-radius: 10px;
     padding: 24px;
 }
 
-.historyItem img{
+.historyItem img {
     width: 50px;
 }
 
@@ -82,36 +82,56 @@
     font-family: var(--font-roboto);
 }
 
-.historyItemDetails h3{
+.historyItemDetails h3 {
     font-size: 30px;
     font-weight: 500;
 }
 
-.historyItemDetails p{
+.historyItemDetails p {
     font-size: 20px;
     font-weight: 300;
 }
 
-.historyItemDetails ul{
-    margin-top: 6px;
-    list-style-position: inside;
-    font-size: 25px;
-    list-style-type: disc;
-    margin-left:17px ;
+.historyItemDetails {
+    font-family: var(--font-roboto);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
-@media screen and(max-width:830px) {
+
+.offerButton {
+    align-self: flex-start; /* Ensures it doesn't stretch */
+    padding: 10px 20px;
+    background-color: var(--color-primary);
+    color: white;
+    font-size: 16px;
+    font-family: var(--font-roboto);
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.offerButton:hover {
+    background-color: var(--color-primary-dark, #0d47a1);
+}
+
+@media screen and (max-width: 830px) {
     .content {
         flex-direction: column;
         align-items: center;
         gap: 34px;
     }
 
-    .skills{
+    .skills {
         width: 100%;
         flex-direction: row;
         justify-content: center;
     }
+
     .history {
         width: 100%;
         gap: 9px;
