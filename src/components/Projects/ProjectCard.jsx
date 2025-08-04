@@ -1,5 +1,6 @@
 import React from 'react'
-import {getImageUrl} from "../../utils";
+// import {getImageUrl} from "../../utils";
+import Project from "../../../public/assets/projects/project.png";
 import styles from "./ProjectCard.module.css"
 
 export const ProjectCard = ({ 
@@ -7,7 +8,7 @@ export const ProjectCard = ({
 }) => {
   return (
     <div className={styles.container}>
-                        <img src={getImageUrl(imageSrc)} alt={`Image of ${title}`} className={styles.image}/>
+                        <img src={Project} alt={`Image of ${title}`} className={styles.image}/>
                         <h3 className={styles.title}>{title}</h3>
                         <p className={styles.description}>{description}</p>
                         <ul className={styles.skills}>{
