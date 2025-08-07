@@ -1,13 +1,13 @@
 [
   {
-    "role": "React.js Intern",
-    "organisation": "The Entrepreneurship Network",
-    "startDate": "July 2025",
-    "endDate": "Present",
-    "imageSrc": "history/officeLogo.jpeg",
+    "role": "Web Developer Intern",
+    "organisation": "Innobyte Services",
+    "startDate": "1st August 2025",
+    "endDate": "31st August 2025",
+    "imageSrc": "history/officeLogo.png",
     "experiences": [
       "Developed responsive web components using React.js and Tailwind CSS.",
       "Worked with tools like Vite, GitHub, and VS Code for efficient development."    ],
-    "offerLink": "https://drive.google.com/file/d/13sv4Mx-vQOkx_01Vv_sr9z1sJs8hpAt3/view?usp=sharing"
+    "offerLink": "https://drive.google.com/file/d/1KCFW-O961pqlnwp1MY_dtDNZRBkZMbIv/view?usp=sharing"
   }
 ]

@@ -3,16 +3,16 @@
       "title": "Food Delivery Website",
       "imageSrc": "projects/project.png",
       "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node","MongoDB"],
-      "demo": "https://tomato-frontend-odae.onrender.com",
-      "source": "https://github.com/DipanwitaDas/Tomato/"
+      "skills": ["React", "Express", "JavaScript", "Node","MongoDB","RazorPay","TailwindCss"],
+      "demo": "https://befoodie-fronted.onrender.com",
+      "source": "https://github.com/Shovan0/beFoodie"
     },
     {
-      "title": "Currency Converter",
+      "title": "Pinterest Clone",
       "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["HTML", "CSS", "Javascript"],
-      "demo": "https://ornate-hamster-2516e1.netlify.app/",
-      "source": "https://github.com/DipanwitaDas/Current-Currency"
+      "description": "This is a fully functional pinterest clone website where you can create update delete and comment pin",
+      "skills": ["React", "Express", "Node","MongoDB","JavaScript","Cloudinary","TailwindCss"],
+      "demo": "",
+      "source": "https://github.com/Shovan0/Pinterest"
     }
   ]

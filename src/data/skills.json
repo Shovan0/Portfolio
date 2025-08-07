@@ -22,5 +22,17 @@
     {
       "title": "Figma",
       "imageSrc": "skills/figma.png"
+    },
+    {
+      "title": "Docker",
+      "imageSrc": "skills/docker.png"
+    },
+    {
+      "title": "Cloudinary",
+      "imageSrc": "skills/cloudinary.png"
+    },
+    {
+      "title": "SQL",
+      "imageSrc": "skills/sql.png"
     }
   ]
