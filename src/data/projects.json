@@ -12,7 +12,7 @@
       "imageSrc": "projects/project.png",
       "description": "This is a fully functional pinterest clone website where you can create update delete and comment pin",
       "skills": ["React", "Express", "Node","MongoDB","JavaScript","Cloudinary","TailwindCss"],
-      "demo": "",
+      "demo": "https://pinterest-frontend-sgyi.onrender.com",
       "source": "https://github.com/Shovan0/Pinterest"
     }
   ]

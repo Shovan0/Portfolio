@@ -33,7 +33,6 @@
   text-decoration: none;
 }
 
-/* By default hide the hamburger icon */
 .menuBtn {
   display: none;
   width: 30px;
@@ -42,16 +41,16 @@
 
 @media screen and (max-width: 830px) {
   .navbar {
-    flex-direction: column;
-    align-items: flex-start;
+    display: flex; /* Keep it as a flex container */
+    align-items: center;
+    justify-content: space-between; /* Align items to the ends */
   }
 
   .menu {
-    position: absolute;
-    right: 0;
-    margin-right: 10%;
-    flex-direction: column;
-    align-items: flex-end;
+    position: initial; /* Position normally within the flex container */
+    margin-right: 0;
+    flex-direction: row;
+    align-items: center;
     gap: 11px;
     z-index: 3;
   }
@@ -59,26 +58,32 @@
   .menuBtn {
     display: block;
     cursor: pointer;
+    width: 30px;
+    height: 30px;
   }
 
   .menuItems {
-    display: none;
+    position: fixed; /* Fix the menu to the viewport */
+    top: 0;
+    right: 0;
+    height: 100vh; /* Full viewport height */
+    width: 70%; /* Slide-out menu width */
     flex-direction: column;
     align-items: center;
-    gap: 13px;
-    border-radius: 10px;
-    background: rgb(25, 55, 109);
-    background: linear-gradient(
-      0deg,
-      rgba(25, 55, 109, 0.2) 0%,
-      rgba(25, 55, 109, 1) 100%
-    );
+    justify-content: center; /* Center the links vertically */
+    gap: 50px; /* Increased gap for better spacing */
+    background-color: #0b0d38;
     padding: 24px 33px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    z-index: 1000;
+    
+    /* Animation properties */
+    transform: translateX(100%); /* Start off-screen to the right */
+    transition: transform 0.4s ease-in-out; /* Smooth transition */
   }
-
+  
   .menuOpen {
+    transform: translateX(0); /* Slide into view */
     display: flex;
-    z-index: 1;
   }
 }

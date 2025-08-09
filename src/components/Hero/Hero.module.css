@@ -52,7 +52,7 @@
     aspect-ratio: 1 / 1;
     border-radius: 50%;
     object-fit: cover;
-    object-position: top; /* 👈 Moves the visible portion to focus on top */
+    object-position: top; 
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     animation-name: floating;
     animation-duration: 3s;
@@ -113,7 +113,7 @@
     .heroImg {
         width: 220px;
         height: 220px;
-        aspect-ratio: 1 / 1;             /* Still maintain perfect circle */
+        aspect-ratio: 1 / 1;             
         margin-bottom: 20px;
     }
     
